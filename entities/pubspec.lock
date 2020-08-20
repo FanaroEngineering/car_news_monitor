@@ -28,7 +28,7 @@ packages:
       name: async
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.4.1"
+    version: "2.4.2"
   boolean_selector:
     dependency: transitive
     description:
@@ -36,20 +36,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.0"
-  car_news_entities:
-    dependency: "direct main"
-    description:
-      path: "../entities"
-      relative: true
-    source: path
-    version: "0.0.1"
-  car_news_scraper:
-    dependency: "direct main"
-    description:
-      path: "../scraper"
-      relative: true
-    source: path
-    version: "0.0.1"
   charcode:
     dependency: transitive
     description:
@@ -70,7 +56,7 @@ packages:
       name: collection
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.14.12"
+    version: "1.14.13"
   convert:
     dependency: transitive
     description:
@@ -98,14 +84,14 @@ packages:
       name: csslib
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.16.1"
-  firebase:
-    dependency: "direct main"
+    version: "0.16.2"
+  date_utils:
+    dependency: "direct dev"
     description:
-      name: firebase
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "7.3.0"
+      path: "../../test_utils/date_utils"
+      relative: true
+    source: path
+    version: "0.0.1"
   glob:
     dependency: transitive
     description:
@@ -126,7 +112,7 @@ packages:
       name: http
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.12.1"
+    version: "0.12.2"
   http_multi_server:
     dependency: transitive
     description:
@@ -141,13 +127,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.1.4"
-  intl:
-    dependency: transitive
-    description:
-      name: intl
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "0.16.1"
   io:
     dependency: transitive
     description:
@@ -177,12 +156,12 @@ packages:
     source: hosted
     version: "0.12.9"
   meta:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: meta
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.8"
+    version: "1.2.2"
   mime:
     dependency: transitive
     description:
@@ -190,13 +169,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.9.7"
-  mock_web_server:
-    dependency: "direct dev"
-    description:
-      name: mock_web_server
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "4.1.1"
   node_interop:
     dependency: transitive
     description:
@@ -226,26 +198,19 @@ packages:
     source: hosted
     version: "1.9.3"
   path:
-    dependency: "direct dev"
+    dependency: transitive
     description:
       name: path
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.7.0"
-  path_utils:
-    dependency: "direct dev"
-    description:
-      path: "../../test_utils/path_utils"
-      relative: true
-    source: path
-    version: "0.0.1"
   pedantic:
     dependency: transitive
     description:
       name: pedantic
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.9.0"
+    version: "1.9.2"
   pool:
     dependency: transitive
     description:
@@ -261,7 +226,7 @@ packages:
     source: hosted
     version: "1.4.4"
   quiver:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: quiver
       url: "https://pub.dartlang.org"
@@ -322,7 +287,7 @@ packages:
       name: stack_trace
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.9.3"
+    version: "1.9.5"
   stream_channel:
     dependency: transitive
     description:
@@ -371,7 +336,7 @@ packages:
       name: typed_data
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "1.1.6"
+    version: "1.2.0"
   vm_service:
     dependency: transitive
     description:

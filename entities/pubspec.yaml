@@ -10,7 +10,7 @@ dev_dependencies:
   test: ^1.15.3
 
   date_utils:
-    path: ../../../test_utils/date_utils/
+    path: ../../test_utils/date_utils/
 
 dependencies:
   quiver: ^2.1.3

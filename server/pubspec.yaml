@@ -6,23 +6,21 @@ author: Philippe Fanaro <philippefanaro@gmail.com
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
-  flutter: ">=1.12.0 <=1.20.0"
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
+  test: ^1.15.3
 
   mock_web_server: ^4.1.1
   path: ^1.6.4
 
   path_utils:
-    path: ../../../test_utils/path_utils/
+    path: ../../test_utils/path_utils/
 
 dependencies:
   firebase: ^7.3.0
   meta: ">=1.0.0 <=1.1.8"
 
   car_news_entities:
-    path: ../../entities/car_news_entities/
+    path: ../entities/
   car_news_scraper:
-    path: ../../scrapers/car_news_scraper/
+    path: ../scraper/
