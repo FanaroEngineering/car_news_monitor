@@ -1,0 +1,26 @@
+name: car_news_user_ui
+description: >-
+  The user endpoint UI for the Car News Monitor service.
+version: 1.0.0+1
+author: Philippe Fanaro <philippefanaro@gmail.com>
+
+environment:
+  flutter: ">=1.12.0 <=1.20.0"
+  sdk: ">=2.7.0 <3.0.0"
+
+flutter:
+  assets:
+    - web/assets/
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase: ^7.3.0
+
+  car_news_entities:
+    path: ../../packages/domain/entities/car_news_entities/

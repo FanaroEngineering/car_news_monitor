@@ -1,0 +1,16 @@
+name: car_news_entities
+description: >-
+version: 0.0.1
+author: Philippe Fanaro <philippefanaro@gmail.com
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dev_dependencies:
+  test: ^1.15.3
+
+  date_utils:
+    path: ../../../test_utils/date_utils/
+
+dependencies:
+  quiver: ^2.1.3

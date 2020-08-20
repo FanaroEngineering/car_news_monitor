@@ -1,0 +1,24 @@
+name: car_news_scraper
+description: >-
+  Various specific scrapers for different car news websites.
+version: 0.0.1
+author: Philippe Fanaro <philippefanaro@gmail.com
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.12.0 <=1.20.0"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  date_utils:
+    path: ../../../test_utils/date_utils/
+  path_utils:
+    path: ../../../test_utils/path_utils/
+
+dependencies:
+  html: ^0.14.0+3
+  intl: ^0.16.1
+  meta: ">=1.0.0 <=1.1.8"
+  path: ^1.6.4

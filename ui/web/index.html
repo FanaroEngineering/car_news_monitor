@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta 
+    name="description" 
+    content="The user endpoint UI for the Car News Monitor service.">
+  <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+  <title>Car News Monitor</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <script>
+    if ('serviceWorker' in navigator) 
+      window.addEventListener('load', () => navigator
+          .serviceWorker
+          .register('flutter_service_worker.js'));
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>
